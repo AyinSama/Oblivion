@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Oblivion">
+      <UniqueIdentifier>{cfa812b6-dcd6-4e04-b56b-d2aa098ebf01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pch">
+      <UniqueIdentifier>{5b726055-04e5-41cf-8a3b-431932ec7383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Oblivion\Utility">
+      <UniqueIdentifier>{34e34f3a-6c79-47e3-a751-f242a3402e05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pch.h">
+      <Filter>Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTypes.h">
+      <Filter>Oblivion\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>Oblivion\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Oblivion\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFile.h">
+      <Filter>Oblivion</Filter>
+    </ClInclude>
+    <ClInclude Include="Protector.h">
+      <Filter>Oblivion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Pch.cpp">
+      <Filter>Pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Oblivion\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFile.cpp">
+      <Filter>Oblivion</Filter>
+    </ClCompile>
+    <ClCompile Include="Protector.cpp">
+      <Filter>Oblivion</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
