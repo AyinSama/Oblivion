@@ -1,7 +1,11 @@
 # Oblivion
 
 Oblivion is a sample x64 exe packer.
-Note: It is not perfect at present. Especially code style and encrypt part. I will refactor it in the future.
+
+## Note
+
+1. It is not perfect at present. Especially code style and encrypt part.
+2. I will refactor the whole 'Oblivion' project in the future.
 
 ## Usage
 
